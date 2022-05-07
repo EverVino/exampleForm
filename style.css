@@ -1,0 +1,78 @@
+html {
+    max-width: 70%;/*modificar usan funciones para mínimos*/
+    margin: 0 auto;
+}
+body {
+    display: flex;
+}
+
+img.fondo {
+    max-height: 100vh;
+}
+
+.side {
+    max-width: 40%;
+    position: relative;
+    z-index: -1;
+    
+}
+.fondo-logo{
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlecontainer{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: calc(20% + 2rem);
+    height: 15%;
+    z-index: 5;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 5rem;
+    color: white;
+   
+}
+
+.logo {
+    height:100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: lightgrey;
+}
+
+article{
+    padding: 10rem 2rem 2rem 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    
+}
+
+
+form{
+    background-color: antiquewhite;
+    padding: 2rem;
+    flex:1;
+
+}
+
+
